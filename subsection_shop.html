@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div class="from">
+            <img class="bgc" src="https://i04piccdn.sogoucdn.com/bd459eec8adf3d86" alt="">
+            <div class="search">
+                <span class="title">Shopping</span>
+                <div class="form_input">
+                    <button class="btn">Where to buy</button>
+                </div>
+                <div class="form_input">
+                    <button class="btnB">Where to eat</button>
+                </div>
+                <div class="form_input">
+                    <button class="btnS">Traditional Market</button>
+                </div>
+                <div class="form_input">
+                    <button class="btnT">Duty free shops</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <style>
+        * {
+    margin: 0;
+    padding: 0
+}
+
+.from {
+    overflow: hidden;
+    position: relative;
+}
+
+.bgc {
+    height: 100%;
+    width: 100%;
+}
+
+.search {
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    margin-top: 150px;
+    width: 500px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: -80px;
+    margin: auto;
+    bottom: 0;
+    color: #000;
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+.form_input {
+    padding: 0 30px;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 20px;
+    align-self: center;
+}
+
+.inputs {
+    height: 40px;
+    width: 450px;
+    border-radius: 5px;
+    border: none;
+    background-color: #eee;
+    color: #666;
+    padding-left: 20px;
+    font-weight: 1000;
+    align-self: center;
+}
+
+.form_input span {
+    width: 100px;
+    align-self: center;
+}
+
+.btn {
+    border: none;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    background: #999;
+    margin-top: 40px;
+}
+
+.btn:hover {
+    background: #666;
+}
+
+.back {
+    margin-left: 10px;
+}
+
+.btnB {
+    border: none;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    background: #FFD204;
+}
+
+.btnS {
+    border: none;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    background: #999;
+    margin-top: 5px;
+}
+
+.btnS:hover {
+    background: #666;
+}
+
+.back {
+    margin-left: 10px;
+}
+
+.btnT {
+    border: none;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    background: #FFD204;
+}
+    </style>
+</html>
